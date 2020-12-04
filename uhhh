@@ -1,0 +1,29 @@
+#Bhoomika Ramu
+def sunny(temp):
+    if temp >= 80:
+        print("Go to the beach when the temperature is", temp)
+    else:
+        print("Stay home when the temperature is", temp)
+
+def rainy(hum,temp):
+    if hum>= 90:
+        temp = temp+5
+        print("The real feel is", temp, "degrees, when it's raining")
+    else:,
+        print("The real feel is", temp, "degrees, when it's raining")
+
+with open (filepath) as fp:
+    line = "x"
+    while line != "":
+        line = fp.readline()
+        if line != "":
+            temp = int(line[2] + line[3])
+            hum = int(line [5]) + line[6])
+            if line != "" and line [0] = "S":
+                sunny(temp)
+            elif line != "" and line[0] == "r":
+                rainy(hum, temp)
+            else:
+                print("Do what you want to do, it's overcast")
+    print("This code is written by Bhoomika Ramu")
+fp.close
